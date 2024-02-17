@@ -1,0 +1,32 @@
+
+.Featured{
+    font-family: Outfit;
+    box-sizing: border-box;
+    padding: 10px ;
+}
+
+.Featured .Card{
+    cursor: pointer;
+    padding: 40px 10px;
+    border: 1px solid rgb(240, 240, 240);
+}
+.Featured .Card img{
+    width: 100%;
+}
+.Featured .Card h2{ 
+font-weight: 800;
+    
+}
+
+.Featured .Card p {
+    font-weight: 300;
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.Featured .Card span {
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 10px;
+    background-color: rgba(232, 232, 232, 0.434);
+}

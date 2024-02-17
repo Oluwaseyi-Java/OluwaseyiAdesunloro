@@ -1,0 +1,10 @@
+.Footer{
+    min-height: 400px;
+    font-family: Outfit;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(3, 3, 157);
+    color: white;
+    padding: 20px 10px;
+}
+

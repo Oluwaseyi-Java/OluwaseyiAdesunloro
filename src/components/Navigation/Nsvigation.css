@@ -1,0 +1,52 @@
+.Nav{
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+.Nav-Group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+.Nav-Group .Name h2{
+    padding: 0;
+    margin: 0;
+}
+.Nav-Group .Name{
+    font-size: 18px;
+}
+.Nav .Toggle-Mode{
+    display: flex;
+    gap: 25px;
+}
+.Nav .Links ul{ 
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+
+}
+.Nav .Links.link1{
+    display: none;
+}
+.Nav .Links.link2 ul{
+    padding: 0;
+    margin: 0;
+    
+}
+.Nav .Links.link2 ul li{
+    color: rgb(58, 58, 58);
+        border-bottom: 1px solid gray;
+        cursor: pointer;
+        font-size: 18px;
+}
+.Toggle-Mode .Sync .sync{
+    font-size: 18px;
+
+}
+.Toggle-Mode .Toggle .Dark, .light{
+    cursor: pointer;
+    font-size: 18px;
+    
+}

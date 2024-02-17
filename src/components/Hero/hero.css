@@ -1,0 +1,21 @@
+.Hero{
+    font-family: Outfit;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 40px 0;
+    padding: 20px 10px;
+
+}
+.Hero video{
+    border-radius: 100px;
+}
+.Hero h1{
+font-size: 25px;
+padding: 0;
+font-weight: 900;
+}
+.Hero p{
+font-size: 18px;
+font-weight: 300;
+line-height: 32px;
+}
